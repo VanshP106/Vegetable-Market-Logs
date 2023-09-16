@@ -1,0 +1,149 @@
+/* Footer.css */
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo h2 {
+    color: #ff9900;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-links a:hover {
+    color: #ff9900;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .icon:hover {
+    color: #ff9900;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ff9900;
+  }
+  
+  .contact-info p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff9900, #ff5500);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-button:hover {
+    background: linear-gradient(to right, #ff5500, #ff9900);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+  .download-app {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .download-app h3 {
+    font-size: 1.2rem;
+    color: #ff9900;
+    margin-bottom: 10px;
+  }
+  
+  .app-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .app-button {
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #ff9900;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .app-button:hover {
+    background-color: #ff9900;
+    color: #fff;
+  }
+  
+  .app-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }  

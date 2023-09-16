@@ -1,0 +1,56 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.Cart_cards{
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    text-align: center;
+    display: inline-flex;
+    flex-flow: column;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+.Cart_cards:hover{
+        transform: scale(1.1,1.1);
+        box-shadow: 0px 0px 15px 0px;
+}
+.image_box img{
+    overflow: hidden;
+    height: 250px;
+    width: 360px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}
+.details p:nth-child(2){
+    color: grey;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: grey;
+}
+.details button{
+    padding: 0.5rem;
+    border: none;
+    transition: 0.2s;
+    margin-bottom:0.5rem ;
+    border-radius: 3px;
+}
+.details button:hover{
+    background: rgba(223, 155, 150, 0.582);
+    transform: scale(1,1);
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 60%;
+    margin: auto;
+}
+.cart_box img{
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.cart_img{
+    display: flex;
+    width: 400px;
+    
+}
+.cart_img p {
+    
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 5px;
+}
+.cart_box div:nth-child(2) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.cart_box div:nth-child(3) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: rgb(235, 147, 135);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.cart_box div:nth-child(3) button:hover{
+    background-color: darkseagreen;
+}
+.cart_box div:nth-child(3) span{
+    background-color: rgb(245, 207, 194);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.total span:nth-child(1){
+    font-size: 1.8rem;
+    color: rgb(255, 158, 125);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.total span:nth-child(2){
+    font-size: 1.8rem;
+    color: rgb(255, 158, 125);
+    font-weight: bold;
+}
+/* Payment.css */
+
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payment a {
+    text-decoration: none;
+  }
+  
+  .payment-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-button:hover {
+    background-color: #0056b3;
+  }
+  
