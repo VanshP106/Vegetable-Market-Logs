@@ -13,11 +13,11 @@ const Order = require('./api/payment-success.js'); // Import the Order model
 
 const app = express();
 
-app.use(cors());
-app.use(express.json());
-{/*app.use(cors({
+app.use(cors({
   origin: 'http://65.0.99.91:3000',
-}));*/}
+}));
+app.use(express.json());
+
 app.use('/api/users', userRoutes);
 app.use('/api/users', loginRoutes);
 app.use('/api/contact', contactRoutes);
